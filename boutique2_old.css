@@ -1,0 +1,32 @@
+.animal-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.animal {
+  clear: left;
+  margin-bottom: 32px;
+}
+
+.container {
+  position: relative;
+  overflow: auto;
+}
+
+.container img {
+  float: left;
+  display: inline-block;
+  width: 150px;
+}
+
+.animal-info {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 16px;
+}
+
+.animal-info > div {
+  padding: 10px 0;
+}
